@@ -72,7 +72,7 @@ label {
   align-items: center;
   justify-content: space-between;
   box-shadow: 0px 2px 5px 0px #00000004 !important;
-  z-index: 1;
+  z-index: 5;
 }
 
 .nav-logo-container {
@@ -417,7 +417,7 @@ label {
 }
 
 .about-btn {
-  width: 31%;
+  width: 33%;
   margin: 15px auto 0px;
   display: flex;
   align-items: center;
@@ -494,7 +494,7 @@ label {
 }
 
 .news-post-sect {
-  width: auto;
+  width: 100%;
   height: auto;
   margin: 20px auto;
   padding: 3px;
@@ -538,7 +538,7 @@ label {
   align-items: center;
   justify-content: center;
   top: 20%;
-  left: 60%;
+  left: 58%;
   transform: translate(20%, -90%);
 }
 
@@ -779,6 +779,37 @@ label {
   background-color: var(--white);
 }
 
+.post-section .owl-nav {
+  position: absolute;
+  top: 45%;
+  left: 0;
+  width: 100%;
+}
+
+.post-section .owl-prev,
+.post-section .owl-next {
+  width: 40px;
+  height: 40px;
+  line-height: 40px !important;
+  color: var(--graylight) !important;
+  border-radius: 50%;
+  font-size: 16px !important;
+  text-align: center;
+  background-color: transparent !important;
+  border: 1px solid var(--graylight) !important;
+  position: absolute;
+}
+
+.post-section .owl-prev {
+  top: -15px;
+  left: 15px;
+}
+
+.post-section .owl-next {
+  top: -15px;
+ right: 15px;
+}
+
 @media screen and (min-width: 426px) {
 
   .nav-container {
@@ -804,6 +835,16 @@ label {
   }
 
 }
+
+@media (min-width:500px) and (max-width:700px) {
+
+  .owl-item {
+    width: 468px !important;
+    margin: 10px auto;
+  }
+
+}
+
 
 @media screen and (min-width: 520px) {
   .about-three-box {
@@ -836,8 +877,9 @@ label {
     margin: auto;
   }
 
-  .news-post-sect {
-    width: 430px;
+  .post-section {
+    width: 75% !important;
+    margin: auto;
   }
 
   .news-text-container {
@@ -852,6 +894,7 @@ label {
   .gof-form-container {
     width: 500px;
   }
+
 }
 
 @media screen and (min-width: 768px) {
@@ -877,16 +920,13 @@ label {
   }
 
   .post-section {
-    width: 100%;
-    display: flex;
-    padding: 10px 10px 20px;
-    flex-wrap: wrap;
-    justify-content: center;
+    width: 95% !important;
+    margin: 10px auto;
   }
 
-  .news-post-sect {
-    width: 420px;
-    margin: 5px;
+  .date-content {
+    left: 55%;
+    transform: translate(15%, -90%);
   }
 
   .president-text-container {
@@ -974,6 +1014,10 @@ label {
     width: 95%;
   }
 
+  .post-section {
+    width: 94% !important;
+    margin: 10px auto;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -982,7 +1026,16 @@ label {
     width: auto;
   }
 
+ .detail-container {
+  display: flex;
+ }
+ 
   .news-text-container {
     width: 75%;
+  }
+
+  .post-section {
+    width: 83% !important;
+    margin: 10px auto;
   }
 }
