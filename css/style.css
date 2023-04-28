@@ -16,7 +16,10 @@
 
 html {
   font-size: 62.5%;
-  font-family: 'Lato', sans-serif;
+}
+
+body {
+  font-family: 'Jost', sans-serif;
 }
 
 h1,
@@ -24,8 +27,7 @@ h2,
 h3,
 h4 {
   font-size: 30px;
-  font-weight: 200;
-  font-family: 'DM Serif Text', serif;
+  font-weight: 800;
 }
 
 a {
@@ -37,6 +39,11 @@ p,
 li,
 label {
   font-size: 18px;
+  font-weight: 600;
+}
+
+button {
+  font-weight: 400 ;
 }
 
 .main-container {
@@ -52,7 +59,6 @@ label {
   font-size: 1.5rem;
   border: none;
   outline: none;
-  font-weight: 700;
   margin: 5px;
   background-color: var(--green);
   color: var(--white);
@@ -394,7 +400,6 @@ label {
 
 .about-three-box h4 {
   font-size: 2em;
-  font-weight: 200;
   margin: 10px 0px;
   text-align: center;
   color: var(--black);
@@ -811,11 +816,18 @@ label {
 .executives-container {
   width: auto;
   height: auto;
-  padding: 100px 0;
+  padding: 40px 0;
 }
 
 .exco-container {
   width: 100% ;
+}
+
+.exco-heading-text {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 90px 0 0;
+  color: var(--white);
 }
 
 .exco-image-container {
@@ -837,11 +849,13 @@ label {
 .exco-name {
   text-transform: uppercase;
   font-size: 3rem;
+  color: var(--white);
 }
 
 .exco-text {
   text-transform: capitalize;
   font-size: 2rem;
+  color: var(--white);
 }
 
 .newsletter-container {
