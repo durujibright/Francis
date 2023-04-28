@@ -660,6 +660,7 @@ label {
   text-transform: uppercase;
   display: block;
   margin: 5px 2px;
+  color: var(--white);
 }
 
 .form-input {
@@ -668,6 +669,7 @@ label {
   padding: 10px 5px;
   border-radius: 2px;
   outline: none;
+  color: var(--white);
   background-color: var(--black);
   border: none;
 }
@@ -676,6 +678,11 @@ label {
   font-size: 1.4rem;
   text-transform: capitalize;
   color: var(--white);
+}
+
+.gof-btn {
+  margin: 20px 30px;
+  float:  right;
 }
 
 /* 
