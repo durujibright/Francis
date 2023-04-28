@@ -664,7 +664,7 @@ button {
   font-size: 1.5rem;
   text-transform: uppercase;
   display: block;
-  margin: 5px 2px;
+  margin: 15px 2px 5px;
   color: var(--white);
 }
 
@@ -686,7 +686,7 @@ button {
 }
 
 .gof-btn {
-  margin: 20px 30px;
+  margin: 20px 30px 5px;
   float:  right;
 }
 
